@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profilepic"
+        android:layout_width="245dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="169dp"
+
+        android:layout_marginBottom="98dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic"
+        app:layout_constraintBottom_toTopOf="@+id/materialTextView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeColor="#00CCFF"
+        app:strokeWidth="5dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="251dp"
+        android:fontFamily="@font/ban"
+        android:gravity="center"
+        android:text="@string/prithviraj_singh"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilepic" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="194dp"
+        android:fontFamily="@font/pac"
+        android:gravity="center"
+        android:text="@string/pursuing_master_of_computer_application_android_application_developer_android_studio_java_python"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilepic" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:backgroundTint="#84D5ED"
+        android:textColor="@color/black"
+        android:text="@string/next"
+        android:fontFamily="@font/pac"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

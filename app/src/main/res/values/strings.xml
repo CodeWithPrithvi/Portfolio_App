@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyPortfolio</string>
+    <string name="prithviraj_singh">Prithviraj Singh</string>
+    <string name="pursuing_master_of_computer_application_android_application_developer_android_studio_java_python">Pursuing Master of Computer Application | Android Application Developer | Android Studio | Java | Python |</string>
+    <string name="next">Next</string>
+    <string name="about">As an MCA (Master of Computer Applications) student with a passion for Android development, I bring a strong foundation in Java and Python programming languages. With a keen interest in mobile application development, I aspire to leverage my skills and knowledge to create innovative and user-friendly Android applications. Eager to contribute to dynamic projects and continuously expand my expertise in the ever-evolving field of technology.</string>
+    <string name="name">Prithviraj Singh</string>
+    <string name="i_am_passionate_about_technology_and_software_development">I am passionate about technology and software development.</string>
+    <string name="schooling_x_maharishi_vidya_mandir_kolkata">Schooling(X): Maharishi Vidya Mandir (Kolkata)</string>
+    <string name="schooling_xii_gd_birla_center_for_education_kolkata">Schooling(XII): GD Birla Center For Education (Kolkata)</string>
+    <string name="bca_college_the_heritage_academy_marks_8_86cgpa">BCA College: The Heritage Academy (Marks: 8.86CGPA)</string>
+    <string name="mca_college_meghnad_saha_institute_of_technology">MCA College: Meghnad Saha Institute of Technology</string>
+</resources>

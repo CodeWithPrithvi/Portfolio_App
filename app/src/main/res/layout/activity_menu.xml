@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
+
     tools:context=".menu">
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -31,6 +32,7 @@
         android:fontFamily="@font/mos3"
         android:text="@string/name"
         android:textSize="20sp"
+        android:textColor="#504D4D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/shapeableImageView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,11 +42,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="485dp"
-        android:fontFamily="@font/mos3"
+        android:padding="10sp"
+
         android:gravity="center"
         android:text="@string/about"
-        android:textColor="@color/black"
-        android:textSize="10sp"
+        android:textColor="#504D4D"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shapeableImageView" />

@@ -26,12 +26,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         next=findViewById(R.id.next);
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, menu.class);
-                startActivity(intent);
-            }
+        next.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, menu.class);
+            startActivity(intent);
         });
 
     }
